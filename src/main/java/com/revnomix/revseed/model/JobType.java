@@ -1,0 +1,13 @@
+package com.revnomix.revseed.model;
+public enum JobType {
+    FETCH_VIEW_RATE,
+    FETCH_INVENTORY,
+    FETCH_RATE_INVENTORY,
+    FETCH_ROOM_MAPPING,
+    RUN_RECOMMENDATION,
+    RUN_CALIBRATION,
+    FETCH_BOOKING_DATA, 
+    STAAH_ALL_PUSH, 
+    RATE_PUSH,
+    RATE_PUSH_OVERRIDE
+}
